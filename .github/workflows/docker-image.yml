@@ -26,4 +26,4 @@ jobs:
         
     - name: test
       shell: bash
-      run: ls
+      run: tail .env
