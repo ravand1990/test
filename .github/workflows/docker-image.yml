@@ -18,9 +18,9 @@ jobs:
       with:
         envkey_DEBUG: false
         envkey_SOME_API_KEY: "123456abcdef"
-        envkey_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+        envkey_SECRET_KEY: "TEST"
         some_other_variable: foobar
-        directory: <directory_name>
+        directory: .
         file_name: .env
         fail_on_empty: false
         
